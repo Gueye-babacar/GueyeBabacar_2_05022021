@@ -1,0 +1,696 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+body{
+    margin: 0;
+    box-sizing: border-box; 
+    font-family: 'Raleway', sans-serif;
+}
+
+#main{
+    margin: 0 50px 50px;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+h2{
+    font-weight: 700;
+}
+
+.flex {
+    display: flex;
+
+
+}
+#activitiesAncre{
+	 color: #0065FC;
+    font-weight: 700;
+    padding: 40px 40px 0;
+
+}
+
+
+.euros{
+    font-weight: 600;
+}
+
+/* Header */
+
+header{
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+
+.logo{
+    margin-top: 30px;
+    flex: 1;
+}
+
+nav li{
+    padding-top: 40px;
+}
+
+nav li a{
+    padding: 40px 30px 0;
+}
+
+.signUp{
+    color: #0065FC;
+    font-weight: 700;
+    padding: 40px 40px 0;
+}
+
+nav li a:hover{
+    color: #0065FC;
+    border-top: 2px solid #0065FC;
+    padding-top: 38px;
+    font-weight: 600;
+}
+
+/* Search bar */
+
+.search{
+    margin-bottom: 30px;
+}
+
+.search h2{
+    margin-bottom: 10px;
+}
+
+.search p{
+    margin-top: 10px;
+}
+
+.searchBar{
+    margin-bottom: 30px;
+    height: 50px;
+}
+
+.MarqueurConteneur{
+    background-color: #f2f2f2;
+    border-radius: 15px 0 0 15px;
+    width: 50px;
+    flex-shrink: 0;
+}
+
+.MarqueurConteneur i{
+    margin: auto;
+    font-size: 1.2rem;
+}
+
+.searchInput{
+    border: 1px solid #f2f2f2;
+    padding: 0 0 0 15px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    width: 230px;
+}
+
+.searchInput::placeholder{
+    color: #c2c2c2;
+}
+
+.searchButton{
+    width: 130px;
+    background-color: #0065FC;
+    border: none;
+    padding: 0;
+    border-radius: 0 15px 15px 0;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.1rem;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+.searchButton i{
+    display: none;
+}
+
+/* Filters */
+
+.textFilter{
+    align-self: center;
+}
+
+.filters{
+    flex-wrap: wrap;
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+}
+
+.filter{
+    align-items: center;
+    height: 46px;
+    border: 2px solid #f2f2f2;
+    border-left: none;
+    margin-left: 20px;
+    padding-right: 20px;
+    border-radius: 25px;
+}
+
+.filter strong{
+    padding-left: 12px;
+}
+
+.filter:hover{
+    cursor: pointer;
+    border-color: #0065FC;
+    color: #0065FC;
+}
+
+.filterList{
+    flex-wrap: wrap;
+}
+
+.iconFilter{
+    position: relative;
+    right: 1px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #DEEBFF;
+}
+
+.iconFilter i{
+    margin: auto;
+    color: #0065FC;
+}
+
+.iconInfo{
+    height: 20px;
+    width: 20px;
+    border: 1px solid #f2f2f2;
+    border-radius: 1rem;
+    margin-right: 10px;
+}
+
+.iconInfo i{
+    margin: auto;
+    font-size: .9rem;
+    color: #0065FC;  
+}
+
+.hotels, .popular{
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.hotels{
+    flex: 2;
+}
+
+.hotels > h2{
+    margin: 0;
+}
+
+.hotelsTab{
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+    gap: 30px;
+    margin: 30px 0 50px;
+    
+
+}
+.hotelCadre
+{
+    display: grid;
+    height: 220px;
+    grid-template-rows: 1fr 40%;
+    box-sizing: border-box;
+    border: 5px solid #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 7px #c1c1c1;
+    }
+   
+    .hotelCadre img{
+     width: 100%;
+     height: 126px;
+    object-fit: cover;
+    }
+
+.hotelDescription{
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #fff;
+    padding: 5px 10px;
+}
+
+.hotelDescription p{
+    margin: 0;
+}
+
+.hotinglRate{
+    word-spacing: -1ch;
+}
+
+.fa-star{
+    font-size: .8rem;
+    letter-spacing: 2px;
+}
+
+.blueStar{
+    color: #0065FC;
+}
+
+.greyStar{
+    color: #f2f2f2;
+}
+
+.Display{
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+/* Popular */
+
+.popular{
+    flex: 1;
+    margin-left: 3%;
+}
+
+.popularIcon{
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.popularIcon h2{
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.popularIcon i{
+    font-size: 1.5rem;
+}
+
+.cadrePopulaire{
+    height: 162px;
+    border: 5px solid #fff;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 7px #c1c1c1;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.cadrePopulaire img{
+    width: 45%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.popularDescription{
+    flex: 1;
+    background-color: #fff;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+.Nomdehotel{
+    margin: 0;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.popularDescription .hotelName + p{
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+
+
+
+
+/* activities */
+
+.activitiesStrip{
+    display: grid;
+    grid-template: repeat(12, 1fr) / repeat(4, 1fr);
+    gap: 37.5px;
+    height: 460px;
+    grid-auto-flow: column;
+    /* height: 754px; */
+    
+    
+
+}
+
+.line12{
+    grid-row: span 13;
+}
+.line6{
+
+    grid-row: span 7;
+
+}
+
+.line5{
+    grid-row: span 6;
+}
+
+.CadreActivite{
+    height: 100%;
+    box-sizing: border-box;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 7px #c1c1c1;
+}
+
+.CadreActivite img{
+    width: 100%;
+    object-fit: cover;
+    height: 70%;
+
+}
+
+.line12 .CadreActivite img {
+    height: 88%;
+}
+
+.line12 .CadreActivite  .DescriptionActivites p{
+    margin-top: 7px;
+}
+
+.DescriptionActivites{
+    font-size: 1.1rem;
+    font-weight: 700;
+    padding-left: 10px;
+}
+
+/* Footer */
+
+footer{
+    padding: 40px 50px 50px;
+    background-color: #f2f2f2;
+}
+
+footer div{
+    flex: 1;
+}
+
+footer li{
+    margin-bottom: 15px;
+}
+
+footer a:hover{
+    font-weight: 600;
+    color: #0065FC;
+}
+
+
+
+/* Tablet version */
+@media only screen and (max-width: 1024px){
+
+    
+    .filters{
+        flex-direction: column;
+    }
+
+    .textFilter{
+        align-self: auto;
+        margin-bottom: 15px;
+    }
+
+    .filter{
+        margin: 0 1rem 1rem 0;
+    }
+
+    /* Popular - Tablet */
+
+    .popular{
+        margin: 0 0 20px;
+    }
+
+    .cadrePopulaire{
+        height: 180px;
+    }
+
+    .popularDescription .hotelName{
+        font-size: 1.4rem;
+    }
+
+    .popularDescription p{
+        font-size: 1.2rem;
+    }
+
+    .popularDescription .fa-star{
+        font-size: 1rem;
+    }
+
+    /* Hotels - Tablet */
+    
+    .hotels{
+        order: 2;
+    }
+
+    .containerHotels{
+        flex-direction: column;
+    }
+
+    /* Activities - Tablet */
+    
+    /* .activitiesStrip{
+        height: auto;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+
+    .line12, .line5, .line6{
+
+        width: 25%;
+        
+    } */
+
+    
+
+    /* .line6 {
+        height: 254px;
+    } */
+
+
+    /* Footer - Tablet */
+    
+    footer div{
+        padding: 10px;
+    }
+}
+
+
+
+/* Phone version */
+@media only screen and (max-width: 600px){ 
+
+    
+
+    #main{
+        margin: 0;
+        overflow: hidden;
+    }
+
+    h2{
+        font-size: 1.4rem;
+    }
+
+    /* Header - Mobile */
+
+    header{
+        margin: 0;
+        flex-direction: column;
+    }
+
+    .logo{
+        margin-left: 20px;
+    }
+
+    .signUp{
+        align-self: flex-end;
+        padding: 0;
+        margin-right: 20px;
+        position: relative;
+        bottom: 30px;
+    }
+
+    nav{
+        order:2;
+    }
+    
+    nav ul{
+        width: 100%;
+    }
+
+    nav li{
+        width: 50%;
+        text-align: center;
+        padding: 20px 0;
+        border-bottom: 3px solid #f2f2f2;
+    }
+
+    nav li a{
+        padding: inherit;
+    }
+
+    nav li a:hover{
+        border-top: none;
+    }
+
+    nav li:hover{
+        border-bottom-color:#0065FC;
+
+    }
+
+    nav li:hover > a {
+        color: #0065FC;
+    }
+
+    /* Search - Mobile */
+
+    .search{
+        margin: 30px 20px;
+    }
+
+    .searchInput{
+        flex: 1;
+    }
+
+    .searchBar{
+        margin: 35px 0 30px;
+    }
+
+    .searchButton{
+        position: relative;
+        width: 45px;
+        border-radius: 15px;
+        left: -30px;
+    }
+
+    .searchButton strong{
+        display: none;
+    }
+
+    .searchButton i{
+        display: inline-block;
+    }
+
+    .filters{
+        margin-bottom: 12px;
+    }
+
+    /* Popular - Mobile */
+
+    .popular{
+        border-radius: 0;
+        padding: 40px 20px 30px;
+        margin-bottom: 40px;
+    }
+
+    .cadrePopulaire{
+        height: 224px;
+        margin-bottom: 10px;
+    }
+
+    .popularIcon i{
+        font-size: 1.4rem;
+    }
+
+    .Nomdehotel{
+        font-size: 1rem !important;
+    }
+
+    .popularDescription p{
+        font-size: .9rem;
+    }
+
+    .popularDescription{
+        padding: 15px 10px 10px 20px;
+    }
+
+    .fa-star{
+        font-size: .8rem !important;
+        letter-spacing: 1px;
+    }
+
+    /* Hotels - Mobile */
+
+    .hotelFrame{
+        height: 200px;
+    }
+
+    .hotels{
+        padding: 0 20px;
+        background-color: initial;
+    }
+    .hotelCadre{
+        width: 100%;
+    }
+
+    .hotelsTab{
+        grid-template: repeat(6, 1fr) / 1fr;
+        gap: 15px;
+    }
+
+    .hotelFrame img{
+        height: 116px;
+    }
+
+    .hotelDescription p{
+        font-size: .9rem;
+    }
+
+    /* activitÃ©s - Mobile */
+
+    .activites{
+        margin: 55px 20px 45px;
+    }
+
+    .activitiesStrip{
+        display: grid;
+        grid-template: repeat(6, 1fr) / 1fr;
+        grid-auto-flow: initial;
+        gap: 15px;
+        height: auto;
+
+    }
+
+    .line12, .line6, .line5{
+        grid-row-end: span 1;
+        grid-column-end: span 1;
+        height: 254px;
+    }
+
+    .line12 .CadreActivite img {
+        height: 80%;
+    }
+    .CadreActivite img{
+        height: 80%;
+    
+    }
+    
+    /* .line12 .CadreActivite  .DescriptionActivitÃ©s p{
+        margin-top: 7px;
+    } */
+
+    /* Footer - Mobile */
+
+    footer{
+        flex-direction: column;
+        padding: 45px 30px;
+    }
+
+    footer div{
+        padding: 0;
+    }
+
+}
