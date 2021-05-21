@@ -451,13 +451,26 @@ footer a:hover{
 
     /* Hotels - Tablet */
     
+
+    
     .hotels{
         order: 2;
+    }
+    .hotelsTab {
+         display: grid ;
+         grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+         gap: 30px ;
+         margin: 46px 0 46px ;
+
     }
 
     .containerHotels{
         flex-direction: column;
     }
+
+
+.activitiesStrip {
+    display: grid;
 
     /* Activities - Tablet */
     
@@ -487,6 +500,7 @@ footer a:hover{
         padding: 10px;
     }
 }
+
 
 
 
