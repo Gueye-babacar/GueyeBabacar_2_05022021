@@ -471,6 +471,10 @@ footer a:hover{
 
 .activitiesStrip {
     display: grid;
+}
+ .CadreActivite .DescriptionActivites p{
+    margin-top: 5px;
+}
 
     /* Activities - Tablet */
     
