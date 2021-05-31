@@ -31,9 +31,9 @@ h2{
 
 }
 #activitiesAncre{
-	 color: #0065FC;
-    font-weight: 700;
-    padding: 40px 40px 0;
+  color: #0065FC;
+  font-weight: 700;
+  padding: 40px 40px 0;
 
 }
 
@@ -232,13 +232,13 @@ nav li a:hover{
     border-radius: 15px;
     overflow: hidden;
     box-shadow: 0 0 7px #c1c1c1;
-    }
-   
-    .hotelCadre img{
-     width: 100%;
-     height: 126px;
-    object-fit: cover;
-    }
+}
+
+.hotelCadre img{
+   width: 100%;
+   height: 126px;
+   object-fit: cover;
+}
 
 .hotelDescription{
     flex-direction: column;
@@ -457,27 +457,27 @@ footer a:hover{
         order: 2;
     }
     .hotelsTab {
-         display: grid ;
-         grid-template: repeat(2, 1fr) / repeat(2, 1fr);
-         gap: 30px ;
-         margin: 46px 0 46px ;
+       display: grid ;
+       grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+       gap: 30px ;
+       margin: 46px 0 46px ;
 
-    }
+   }
 
-    .containerHotels{
-        flex-direction: column;
-    }
+   .containerHotels{
+    flex-direction: column;
+}
 
 
 .activitiesStrip {
     display: grid;
 }
- .CadreActivite .DescriptionActivites p{
+.CadreActivite .DescriptionActivites p{
     margin-top: 5px;
 }
 
-    /* Activities - Tablet */
-    
+/* Activities - Tablet */
+
     /* .activitiesStrip{
         height: auto;
         display: flex;
@@ -489,226 +489,226 @@ footer a:hover{
 
         width: 25%;
         
-    } */
+        } */
 
-    
+        
 
     /* .line6 {
         height: 254px;
-    } */
+        } */
 
 
-    /* Footer - Tablet */
-    
-    footer div{
-        padding: 10px;
-    }
-}
-
-
-
-
-/* Phone version */
-@media only screen and (max-width: 600px){ 
-
-    
-
-    #main{
-        margin: 0;
-        overflow: hidden;
+        /* Footer - Tablet */
+        
+        footer div{
+            padding: 10px;
+        }
     }
 
-    h2{
-        font-size: 1.4rem;
-    }
 
-    /* Header - Mobile */
 
-    header{
-        margin: 0;
-        flex-direction: column;
-    }
 
-    .logo{
-        margin-left: 20px;
-    }
+    /* Phone version */
+    @media only screen and (max-width: 600px){ 
 
-    .signUp{
-        align-self: flex-end;
-        padding: 0;
-        margin-right: 20px;
-        position: relative;
-        bottom: 30px;
-    }
+        
 
-    nav{
-        order:2;
-    }
-    
-    nav ul{
-        width: 100%;
-    }
+        #main{
+            margin: 0;
+            overflow: hidden;
+        }
 
-    nav li{
-        width: 50%;
-        text-align: center;
-        padding: 20px 0;
-        border-bottom: 3px solid #f2f2f2;
-    }
+        h2{
+            font-size: 1.4rem;
+        }
 
-    nav li a{
-        padding: inherit;
-    }
+        /* Header - Mobile */
 
-    nav li a:hover{
-        border-top: none;
-    }
+        header{
+            margin: 0;
+            flex-direction: column;
+        }
 
-    nav li:hover{
-        border-bottom-color:#0065FC;
+        .logo{
+            margin-left: 20px;
+        }
 
-    }
+        .signUp{
+            align-self: flex-end;
+            padding: 0;
+            margin-right: 20px;
+            position: relative;
+            bottom: 30px;
+        }
 
-    nav li:hover > a {
-        color: #0065FC;
-    }
+        nav{
+            order:2;
+        }
+        
+        nav ul{
+            width: 100%;
+        }
 
-    /* Search - Mobile */
+        nav li{
+            width: 50%;
+            text-align: center;
+            padding: 20px 0;
+            border-bottom: 3px solid #f2f2f2;
+        }
 
-    .search{
-        margin: 30px 20px;
-    }
+        nav li a{
+            padding: inherit;
+        }
 
-    .searchInput{
-        flex: 1;
-    }
+        nav li a:hover{
+            border-top: none;
+        }
 
-    .searchBar{
-        margin: 35px 0 30px;
-    }
+        nav li:hover{
+            border-bottom-color:#0065FC;
 
-    .searchButton{
-        position: relative;
-        width: 45px;
-        border-radius: 15px;
-        left: -30px;
-    }
+        }
 
-    .searchButton strong{
-        display: none;
-    }
+        nav li:hover > a {
+            color: #0065FC;
+        }
 
-    .searchButton i{
-        display: inline-block;
-    }
+        /* Search - Mobile */
 
-    .filters{
-        margin-bottom: 12px;
-    }
+        .search{
+            margin: 30px 20px;
+        }
 
-    /* Popular - Mobile */
+        .searchInput{
+            flex: 1;
+        }
 
-    .popular{
-        border-radius: 0;
-        padding: 40px 20px 30px;
-        margin-bottom: 40px;
-    }
+        .searchBar{
+            margin: 35px 0 30px;
+        }
 
-    .cadrePopulaire{
-        height: 224px;
-        margin-bottom: 10px;
-    }
+        .searchButton{
+            position: relative;
+            width: 45px;
+            border-radius: 15px;
+            left: -30px;
+        }
 
-    .popularIcon i{
-        font-size: 1.4rem;
-    }
+        .searchButton strong{
+            display: none;
+        }
 
-    .Nomdehotel{
-        font-size: 1rem !important;
-    }
+        .searchButton i{
+            display: inline-block;
+        }
 
-    .popularDescription p{
-        font-size: .9rem;
-    }
+        .filters{
+            margin-bottom: 12px;
+        }
 
-    .popularDescription{
-        padding: 15px 10px 10px 20px;
-    }
+        /* Popular - Mobile */
 
-    .fa-star{
-        font-size: .8rem !important;
-        letter-spacing: 1px;
-    }
+        .popular{
+            border-radius: 0;
+            padding: 40px 20px 30px;
+            margin-bottom: 40px;
+        }
 
-    /* Hotels - Mobile */
+        .cadrePopulaire{
+            height: 224px;
+            margin-bottom: 10px;
+        }
 
-    .hotelFrame{
-        height: 200px;
-    }
+        .popularIcon i{
+            font-size: 1.4rem;
+        }
 
-    .hotels{
-        padding: 0 20px;
-        background-color: initial;
-    }
-    .hotelCadre{
-        width: 100%;
-    }
+        .Nomdehotel{
+            font-size: 1rem !important;
+        }
 
-    .hotelsTab{
-        grid-template: repeat(6, 1fr) / 1fr;
-        gap: 15px;
-    }
+        .popularDescription p{
+            font-size: .9rem;
+        }
 
-    .hotelFrame img{
-        height: 116px;
-    }
+        .popularDescription{
+            padding: 15px 10px 10px 20px;
+        }
 
-    .hotelDescription p{
-        font-size: .9rem;
-    }
+        .fa-star{
+            font-size: .8rem !important;
+            letter-spacing: 1px;
+        }
 
-    /* activitÃ©s - Mobile */
+        /* Hotels - Mobile */
 
-    .activites{
-        margin: 55px 20px 45px;
-    }
+        .hotelFrame{
+            height: 200px;
+        }
 
-    .activitiesStrip{
-        display: grid;
-        grid-template: repeat(6, 1fr) / 1fr;
-        grid-auto-flow: initial;
-        gap: 15px;
-        height: auto;
+        .hotels{
+            padding: 0 20px;
+            background-color: initial;
+        }
+        .hotelCadre{
+            width: 100%;
+        }
 
-    }
+        .hotelsTab{
+            grid-template: repeat(6, 1fr) / 1fr;
+            gap: 15px;
+        }
 
-    .line12, .line6, .line5{
-        grid-row-end: span 1;
-        grid-column-end: span 1;
-        height: 254px;
-    }
+        .hotelFrame img{
+            height: 116px;
+        }
 
-    .line12 .CadreActivite img {
-        height: 80%;
-    }
-    .CadreActivite img{
-        height: 80%;
-    
-    }
-    
+        .hotelDescription p{
+            font-size: .9rem;
+        }
+
+        /* activitÃ©s - Mobile */
+
+        .activites{
+            margin: 55px 20px 45px;
+        }
+
+        .activitiesStrip{
+            display: grid;
+            grid-template: repeat(6, 1fr) / 1fr;
+            grid-auto-flow: initial;
+            gap: 15px;
+            height: auto;
+
+        }
+
+        .line12, .line6, .line5{
+            grid-row-end: span 1;
+            grid-column-end: span 1;
+            height: 254px;
+        }
+
+        .line12 .CadreActivite img {
+            height: 80%;
+        }
+        .CadreActivite img{
+            height: 80%;
+            
+        }
+        
     /* .line12 .CadreActivite  .DescriptionActivitÃ©s p{
         margin-top: 7px;
-    } */
+        } */
 
-    /* Footer - Mobile */
+        /* Footer - Mobile */
 
-    footer{
-        flex-direction: column;
-        padding: 45px 30px;
+        footer{
+            flex-direction: column;
+            padding: 45px 30px;
+        }
+
+        footer div{
+            padding: 0;
+        }
+
     }
-
-    footer div{
-        padding: 0;
-    }
-
-}
