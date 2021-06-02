@@ -244,7 +244,7 @@ nav li a:hover{
     flex-direction: column;
     justify-content: space-around;
     background-color: #fff;
-    padding: 5px 10px;
+    
 }
 
 .hotelDescription p{
@@ -315,7 +315,7 @@ nav li a:hover{
     background-color: #fff;
     flex-direction: column;
     justify-content: space-between;
-    padding: 8px;
+    padding: 5px;
 }
 
 .Nomdehotel{
@@ -413,7 +413,7 @@ footer a:hover{
 /* Tablet version */
 @media only screen and (max-width: 1024px){
 
-    
+
     .filters{
         flex-direction: column;
     }
@@ -491,7 +491,7 @@ footer a:hover{
         
         } */
 
-        
+
 
     /* .line6 {
         height: 254px;
@@ -499,7 +499,7 @@ footer a:hover{
 
 
         /* Footer - Tablet */
-        
+
         footer div{
             padding: 10px;
         }
@@ -511,7 +511,7 @@ footer a:hover{
     /* Phone version */
     @media only screen and (max-width: 600px){ 
 
-        
+
 
         #main{
             margin: 0;
@@ -544,7 +544,7 @@ footer a:hover{
         nav{
             order:2;
         }
-        
+
         nav ul{
             width: 100%;
         }
@@ -693,9 +693,9 @@ footer a:hover{
         }
         .CadreActivite img{
             height: 80%;
-            
+
         }
-        
+
     /* .line12 .CadreActivite  .DescriptionActivitÃ©s p{
         margin-top: 7px;
         } */
